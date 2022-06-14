@@ -14,6 +14,14 @@ public class Tests {
 	}else {
 		nepa1=true;
 	}
+	do {
+		izvele = JOptionPane.showInputDialog("2. Ko while cikls dara pirms tas uzsāk darbību?\n\n1- Vai nav tukš while cikls\n2- Vai ir ievadīts iekšā string un int tipi\n3- Tas pārbauda cikla sākuma nosacījumu\n4- Tas nosaka daudzumu ciklam\n");
+			}while(!izvele.equals("1") && !izvele.equals("2") && !izvele.equals("3") && !izvele.equals("4"));
+		if(izvele.equals("3")){
+		pareizi++;
+		}else {
+			nepa2=true;
+		}
 	}
 
 }
