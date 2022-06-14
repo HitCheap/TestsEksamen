@@ -38,6 +38,13 @@ public class Tests {
 				}else {
 					nepa4=true;
 				}
+				do {
+					izvele = JOptionPane.showInputDialog("5. Kad while ciklā ir jālieto figūriekavas '{' un '}'?\n\n1- Kad vēlas\n2- Ja ciklā jāizpilda vairākas komandas\n3- Figūriekavas nav jālieto while ciklā\n4- Ja ciklā jāizpilda tikai viena komanda\n");
+						}while(!izvele.equals("1") && !izvele.equals("2") && !izvele.equals("3") && !izvele.equals("4"));
+					if(izvele.equals("2")){
+					pareizi++;
+					}else {
+						nepa5=true;
+					}
 	}
-
 }
