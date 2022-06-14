@@ -46,5 +46,13 @@ public class Tests {
 					}else {
 						nepa5=true;
 					}
+					do {
+						izvele = JOptionPane.showInputDialog("6. Kāda atšķirība ir starp while un do while?\n\n1- While ciklā ir zināms cik reizes cikls atkārtosies, bet do while ciklā nē \n2- Nav atšķirības\n3- While cikls sākumā pārbauda nosacījumu, bet do while beigās\n4- While cikls beigās pārbauda nosacījumu, bet do while sākumā\n");
+							}while(!izvele.equals("1") && !izvele.equals("2") && !izvele.equals("3") && !izvele.equals("4"));
+						if(izvele.equals("3")){
+						pareizi++;
+						}else {
+							nepa6=true;
+						}
 	}
 }
