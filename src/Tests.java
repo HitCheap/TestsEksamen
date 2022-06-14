@@ -22,6 +22,15 @@ public class Tests {
 		}else {
 			nepa2=true;
 		}
+		do {
+			izvele = JOptionPane.showInputDialog("3. Ko dara while cikls ja nosacījums  ir patiess?\n\n1- Cikls netiek pildīts\n2- Tiek uzsākta cikla darbība\n3- Izvada kodu rindu pirms while cikla\n4- Neko nedara\n");
+				}while(!izvele.equals("1") && !izvele.equals("2") && !izvele.equals("3") && !izvele.equals("4"));
+			if(izvele.equals("2")){
+			pareizi++;
+			}else {
+				nepa3=true;
+			}
+			
 	}
 
 }
