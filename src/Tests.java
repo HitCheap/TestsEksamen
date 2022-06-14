@@ -30,7 +30,14 @@ public class Tests {
 			}else {
 				nepa3=true;
 			}
-			
+			do {
+				izvele = JOptionPane.showInputDialog("4. Ko dara while cikls ja nosacījums  ir aplams?\n\n1- Atgādina ievadīt pareizus datus \n2- Neko nedara\n3- Tiek uzsākta cikla darbība\n4- Cikls netiek pildīts\n");
+					}while(!izvele.equals("1") && !izvele.equals("2") && !izvele.equals("3") && !izvele.equals("4"));
+				if(izvele.equals("4")){
+				pareizi++;
+				}else {
+					nepa4=true;
+				}
 	}
 
 }
