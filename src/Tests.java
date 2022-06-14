@@ -62,6 +62,13 @@ public class Tests {
 							}else {
 								nepa7=true;
 							}
-						
+							do {
+								izvele = JOptionPane.showInputDialog("8. Kas notiek ja while ciklā nav dota sākumvērtība?\n\n1- Cikls turpina darbu\n2- While ciklā nevajag sākumvērtību, ja ir komanda kas maina tās vērtību\n3- Tā jau ir 'if' funkcija\n4- Cikls nestrādās\n");
+									}while(!izvele.equals("1") && !izvele.equals("2") && !izvele.equals("3") && !izvele.equals("4"));
+								if(izvele.equals("4")){
+								pareizi++;
+								}else {
+									nepa8=true;
+								}
 	}
 }
