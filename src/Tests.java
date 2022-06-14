@@ -54,5 +54,14 @@ public class Tests {
 						}else {
 							nepa6=true;
 						}
+						do {
+							izvele = JOptionPane.showInputDialog("7. Kas notiek ja while ciklā neieliek komandu, kas maina cikla sākumvērtību?\n\n1- Cikls strādās bezgalīgi\n2- While ciklā nevajag komandu kas izmaina sākumvērtību\n3- While cikls kļūst par do while ciklu\n4- Nekas nenotiek\n");
+								}while(!izvele.equals("1") && !izvele.equals("2") && !izvele.equals("3") && !izvele.equals("4"));
+							if(izvele.equals("1")){
+							pareizi++;
+							}else {
+								nepa7=true;
+							}
+						
 	}
 }
