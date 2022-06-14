@@ -78,5 +78,13 @@ public class Tests {
 									}else {
 										nepa9=true;
 									}
+									do {
+										izvele = JOptionPane.showInputDialog("10.\n    x=0;\n    while(x=>11)\n    x++;\n    System.out.print(x+\" \");\n Cik reizes printēs x?\n\n1- Nevienu reizi \n2- 12 \n3- 11\n4- 10 \n");
+											}while(!izvele.equals("1") && !izvele.equals("2") && !izvele.equals("3") && !izvele.equals("4"));
+										if(izvele.equals("1")){
+										pareizi++;
+										}else {
+											nepa10=true;
+										}
 	}
 }
