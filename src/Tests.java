@@ -70,5 +70,13 @@ public class Tests {
 								}else {
 									nepa8=true;
 								}
+								do {
+									izvele = JOptionPane.showInputDialog("9. Kas notiek ja while ciklā nosacījums ir aplams jau sākumā?\n\n1-Apstājas visa programma \n2- Cikls strādās bezgalīgi\n3- While cikls rādies 'error'\n4- While cikls neizpildīsies ne reizi\n");
+										}while(!izvele.equals("1") && !izvele.equals("2") && !izvele.equals("3") && !izvele.equals("4"));
+									if(izvele.equals("4")){
+									pareizi++;
+									}else {
+										nepa9=true;
+									}
 	}
 }
